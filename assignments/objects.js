@@ -29,7 +29,8 @@ const kennan = {
   "id": 2,
   "name": "Kennan",
   "email": "kdiben1@tinypic.com",
-  "gender": "M"
+  "gender": "M",
+  "speak": "Hello, my name is Kennan!"
 }
 
 const keven = {
@@ -50,7 +51,10 @@ const antonietta = {
   "id": 5,
   "name": "Antonietta",
   "email": "adaine5@samsung.com",
-  "gender": "F"
+  "gender": "F",
+  "multiplyNums": function(num1, num2) {
+    return num1 * num2;
+  }
 }
 
 
@@ -68,6 +72,7 @@ console.log(keven.email);
 console.log(gannie.name);
 // Antonietta's Gender
 console.log(antonietta.gender);
+
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
