@@ -5,14 +5,20 @@
 // };
 // myFunction();
 
-const myFunction = "Function was invoked!";
-console.log(myFunction);
+const myFunction = () => {
+    console.log("Function was invoked!");
+}
+myFunction();
 
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
 
+let anotherFunction = (param) => {
+    return param;
+}
+console.log(anotherFunction("Example"));
 
 
 // let add = function (param1, param2) {
